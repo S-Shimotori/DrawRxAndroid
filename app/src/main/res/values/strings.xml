@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DrawRxAndroid</string>
+    <string name="button_run_scheduler">Run Schedulers Example</string>
 </resources>

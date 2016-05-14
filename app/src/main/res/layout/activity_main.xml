@@ -10,7 +10,15 @@
     tools:context="net.terminal_end.drawrxandroid.MainActivity">
 
     <TextView
+        android:id="@+id/text_hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/button_run_scheduler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_run_scheduler"
+        android:layout_below="@id/text_hello_world" />
 </RelativeLayout>
